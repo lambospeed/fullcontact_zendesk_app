@@ -1,14 +1,18 @@
 {
     "app": {
+        "package": "fullcontact_app",
+		
         "description": {
-            "title": "Rapportive + Zendesk integration",
+            "title": "FullContact + Zendesk integration",
             "value": "This app shows your end-users' profile and social media links based on their emails."
         },
         "name": {
-            "title": "Rapportive App",
-            "value": "Rapportive App"
+            "title": "FullContact App",
+            "value": "FullContact App"
         },
-        "package": "rapportive_app"
+
+		"parameters": {
+		      "yourApiKey" : { "label": "Your API Key" },
     },
     "error": {
         "main": {

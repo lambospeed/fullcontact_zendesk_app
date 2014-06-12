@@ -1,11 +1,28 @@
 {
-  "name": "Rapportive",
+  "name": "FullContact App",
+  
   "author": {
     "name": "Luiz Faias",
     "email": "luizfaias@gmail.com"
   },
+  
   "defaultLocale": "en",
+
   "private": true,
+
   "location": ["ticket_sidebar"],
-  "frameworkVersion": "0.5"
+
+  "frameworkVersion": "0.5",
+
+  "version": "1.0",
+
+  "singleInstall": true,
+
+  "parameters": [
+    {
+      "name": "yourApiKey",
+      "type": "text",
+      "required": true
+    }
+  ]
 }

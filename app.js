@@ -3,13 +3,13 @@
 	var requester_id;
 	var requester_email;
 	var has_twitter_profile;
-	var API_KEY = "cfac754caac398e4"; //example only - Your API Key should be here
+	var API_KEY = this.setting('yourApiKey');
 
 	return {
 		defaultState: 'loading',
 
 		events: {
-			'app.created': 'init',
+			'app.activated': 'init',
 
 			'click .update_twitter_btn': 'update_twitter_handle'
 		},
