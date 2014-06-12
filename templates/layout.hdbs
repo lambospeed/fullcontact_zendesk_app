@@ -1,0 +1,6 @@
+<section data-main/>
+<footer>
+	<div class="issues">
+		<a href="https://github.com/luizfaias/rapportive_zendesk_app/issues" target="_blank">{{t "issue.report"}}</a>
+	</div>
+</footer>

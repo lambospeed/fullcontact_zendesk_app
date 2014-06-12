@@ -1,0 +1,11 @@
+{
+  "name": "Rapportive",
+  "author": {
+    "name": "Luiz Faias",
+    "email": "luizfaias@gmail.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["ticket_sidebar"],
+  "frameworkVersion": "0.5"
+}

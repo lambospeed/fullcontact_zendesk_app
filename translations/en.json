@@ -1,0 +1,51 @@
+{
+    "app": {
+        "description": {
+            "title": "Rapportive + Zendesk integration",
+            "value": "This app shows your end-users' profile and social media links based on their emails."
+        },
+        "name": {
+            "title": "Rapportive App",
+            "value": "Rapportive App"
+        },
+        "package": "rapportive_app"
+    },
+    "error": {
+        "main": {
+            "title": "There was a problem accessing the user's data.",
+            "value": "There was a problem accessing the user's data."
+        },
+        "try_again_later": {
+            "title": "Please try again later.",
+            "value": "Please try again later."
+        },
+		"no_email_found": {
+			"title": "User's profile does not contain an email.",
+			"value": "User's profile does not contain an email."
+		},
+		"social_media_not_loaded": {
+			"title": "Social media info cannot be loaded at this time.",
+			"value": "Social media info cannot be loaded at this time."
+		}
+    },
+    "issue": {
+        "report": {
+            "title": "Report an issue",
+            "value": "Report an issue"
+        }
+    },
+    "loading": {
+        "title": "Loading. Please wait...",
+        "value": "Loading. Please wait..."
+    },
+    "user": {
+        "update_profile": {
+            "title": "update profile",
+            "value": "update profile"
+        },
+		"updated": {
+            "title": "User updated!",
+            "value": "User updated!"
+		}
+    }
+}

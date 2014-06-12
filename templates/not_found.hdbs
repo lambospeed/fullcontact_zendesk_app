@@ -1,0 +1,2 @@
+<p>{{t "error.no_email_found"}}</p>
+<p>{{t "error.social_media_not_loaded"}}</p>

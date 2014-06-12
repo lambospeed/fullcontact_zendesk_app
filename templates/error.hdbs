@@ -1,0 +1,2 @@
+<p>{{t "error.main"}}</p>
+<p>{{t "error.try_again_later"}}</p>

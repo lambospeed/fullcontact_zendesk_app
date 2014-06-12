@@ -1,0 +1,48 @@
+<section data-main>
+	<table class="table-condensed">
+		<tbody>
+			<tr>
+				<td>
+					<h3>{{full_name}}</h3><br>
+					{{#if occupations}}
+						<p>{{occupations.0.title}}</p>
+						<p>{{occupations.0.name}}</p>
+					{{/if}}
+				</td>
+				<td class="profile"><img src="{{image_url}}"></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	{{#if twitter_username}}
+	<table class="table-condensed social_media">
+		<tbody>
+			<tr>
+				<td class="social_media_link">
+					<a href="http://twitter.com/{{twitter_username}}" target="_blank"><img src="https://rapportive.com/images/icons/twitter.png"> @{{twitter_username}}</a>
+					<input type="hidden" id="twitter_handle" value="{{twitter_username}}" />
+				</td>
+				<td class="social_media_action">
+					{{#unless has_twitter_profile}}
+						<button class="update_twitter_btn origin btn apps-button">{{t "user.update_profile"}}</button>
+					{{/unless}}
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	{{/if}}
+
+	{{#if social_media}}
+	<table class="table social_media">
+		<tbody>
+			{{#each social_media}}
+			<tr>
+				<td>
+					<a href="{{url}}" target="_blank"><img src="https://api.fullcontact.com/v2/icon/{{typeId}}/?apiKey={{../api_key}}"> {{typeName}}</a>
+				</td>
+			</tr>
+			{{/each}}
+		</tbody>
+	</table>
+	{{/if}}
+</section data-main>
