@@ -1,6 +1,6 @@
-# Zendesk Rapportive App
+# FullContact - Unofficial Zendesk App
 
-This app shows your Zendesk end-users' profile and social media links based on their emails. Information provided by [Rapportive](http://rapportive.com).
+This app shows your Zendesk end-users' profile and social media links based on their emails. Information provided by [FullContact](http://fullcontact.com).
 
 ### The following information is displayed:
 
