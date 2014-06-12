@@ -3,7 +3,7 @@
 	var requester_id;
 	var requester_email;
 	var has_twitter_profile;
-	var API_KEY = this.setting('your_api_key');
+	var API_KEY;
 
 	return {
 		defaultState: 'loading',
@@ -44,6 +44,7 @@
 		},
 
 		init: function() {
+			API_KEY = this.setting('your_api_key');
 			requester_id = this.ticket().requester().id();
 			requester_email = this.ticket().requester().email();
 
@@ -71,9 +72,12 @@
 			
 			if (data) {
 				var social_media = data.socialProfiles;
+				//TODO update user profile with twitter and facebook accounts
+				/* 
 				social_media = _.reject(social_media, function(el) {
 					return el.typeId === "twitter" || el.typeId === "facebook";
 				});
+				*/
 				
 				this.switchTo('user_info', {
 					full_name: data.contactInfo.fullName,
