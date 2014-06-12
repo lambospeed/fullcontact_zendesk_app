@@ -3,7 +3,7 @@
 	var requester_id;
 	var requester_email;
 	var has_twitter_profile;
-	var API_KEY = this.setting('yourApiKey');
+	var API_KEY = this.setting('your_api_key');
 
 	return {
 		defaultState: 'loading',

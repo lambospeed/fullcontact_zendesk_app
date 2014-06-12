@@ -1,7 +1,7 @@
 {
     "app": {
         "package": "fullcontact_app",
-		
+        
         "description": {
             "title": "FullContact + Zendesk integration",
             "value": "This app shows your end-users' profile and social media links based on their emails."
@@ -10,9 +10,14 @@
             "title": "FullContact App",
             "value": "FullContact App"
         },
-
-		"parameters": {
-		      "yourApiKey" : { "label": "Your API Key" },
+        "parameters": {
+            "your_api_key": {
+                "label": {
+                    "title": "Your API Key",
+                    "value": "Your API Key"
+                }
+            }
+        }
     },
     "error": {
         "main": {

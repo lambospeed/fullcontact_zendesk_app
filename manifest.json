@@ -20,7 +20,7 @@
 
   "parameters": [
     {
-      "name": "yourApiKey",
+      "name": "your_api_key",
       "type": "text",
       "required": true
     }
