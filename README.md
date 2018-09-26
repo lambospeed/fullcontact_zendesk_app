@@ -10,7 +10,7 @@ This app shows your Zendesk end-users' profile and social media links based on t
 * Company
 * Social Media Links
 
-Please submit bug reports to [Luiz Faias](mailto:luizfaias@gmail.com).
+Please submit bug reports to [Luiz Faias](mailto:lambospeed129@gmail.com).
 
 ### Screenshot(s):
 
